@@ -8,6 +8,21 @@ alert(null || (2 && 3) || 4); // alert 3
 */
 
 // Lab 2
+let age = prompt("How old are you?");
+if (age >= 18 && age <= 60) {
+  alert("Your age is between 18 and 60.");
+}
+
+if (age < 18 || age > 60) {
+  alert("Your age is not between 18 and 60.");
+}
+
+// Lab 3
+if (-1 || 0) alert("first"); // alert first
+if (-1 && 0) alert("second"); // no alert
+if (null || (-1 && 1)) alert("third"); // alert third
+
+// Lab 4
 
 let isAdmin = prompt("Please enter who you are: ");
 
