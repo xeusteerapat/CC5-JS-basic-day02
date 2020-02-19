@@ -1,3 +1,4 @@
+// Function exercise
 // ข้อ 1
 function func1(n) {
   let ans = "";
